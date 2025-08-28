@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+}
+
+
+#cJava{
+    background-color: yellow;
+    height: 100px;
+    border:solid;
+    padding: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid blue;
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 400px;
+    padding: 20px;
+
+}
+h2{
+    text-align: center;
+}
+iframe{
+    position: relative;
+    left: 700px;
+}
+#d2{
+      position: relative;
+      left: 800px;
+      background-color: yellow;
+      
+      
+}
+#C{
+   height: 500px;
+   width: 900px;
+}
