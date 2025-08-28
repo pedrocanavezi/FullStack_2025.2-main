@@ -1,0 +1,76 @@
+p{
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+    display: inline;
+}
+.solid{
+    border-style: solid;
+  
+}
+
+.dotted{
+    border-style: dotted;
+  
+}
+.double{
+    border-style: double;
+  
+}
+.dashed{
+    border-style: dashed;
+    
+}
+#d1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    border: solid 5px blue;
+    padding: 30px;
+    margin: 30px;
+}
+#d2{
+    display: inline;
+}
+#s1{
+    display: block;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.inline{
+    display: inline;
+}
+.padd_10px{
+    padding: 10px;
+}
+#d3{
+    position:relative;
+    top:40px;
+    right:30px;
+}
+#d4{
+    position:absolute;
+    top:40px;
+    left:50;
+}
+#d5{
+    position: absolute;
+    bottom:40px;
+    right:60px;
+
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+#d6{
+    position: fixed;
+    bottom:40px;
+    right:100px;
+    z-index:10;
+}
