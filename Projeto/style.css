@@ -1,39 +1,85 @@
-body{
-    background-color: gray;
+body {
+  background-color: gray;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
 }
-
-
-#cJava{
-    background-color: yellow;
-    height: 100px;
-    border:solid;
-    padding: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: solid blue;
-    text-align: center;
+#titulo {
+  background-color: yellow;
+  border: 2px solid blue;
+  padding: 30px 0;      
+  margin: 20px;
+  position: relative;  
 }
-img{
-    position: relative;
-    left: 400px;
-    padding: 20px;
-
+#logo-cpp,
+#logo-java {
+  position: absolute;  
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80px;
 }
-h2{
-    text-align: center;
+#logo-cpp {
+  left: 20px;           
 }
-iframe{
-    position: relative;
-    left: 700px;
+#logo-java {
+  right: 20px;         
 }
-#d2{
-      position: relative;
-      left: 800px;
-      background-color: yellow;
-      
-      
+.menu {
+  background-color: lightblue;
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 10px;
 }
-#C{
-   height: 500px;
-   width: 900px;
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+.caixa {
+  background-color: lightgray;
+  border: 1px solid black;
+  margin: 15px auto;
+  padding: 10px;
+  width: 90%;
+  text-align: justify;
+}
+.livros img {
+  width: 180px;
+  margin: 5px;
+  border: 1px solid black;
+}
+iframe {
+  width: 45%;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+}
+.contatos {
+  border: 2px dashed red;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: white;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.links {
+  background-color: yellow;
+  border: 2px solid orange;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: left;
+}
+.rodape {
+  font-family: "Comic Sans MS", cursive;
+  font-size: 15pt;
+  margin: 20px;
 }
