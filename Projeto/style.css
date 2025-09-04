@@ -7,7 +7,7 @@ body {
   color: purple;
 }
 #titulo {
-  background-color: bisque; 
+  background-color: bisque;  
   border: 2px solid blue;
   padding: 30px 0;
   margin: 20px;
@@ -71,7 +71,7 @@ a, a:visited { color: purple;}
   justify-content: center;
   gap: 12px;
   margin: 10px 0 20px;
-  background-color: white;
+  background-color:lightgray;
   padding: 10px;
 }
 iframe {
@@ -85,17 +85,17 @@ iframe {
   border: 2px dashed red;
   width: min(90%, 700px);
   margin: 20px auto;
-  padding: 10px;
+  padding: 10px;   
   background-color: white;
   overflow-x: auto;
-  color: purple;
+  color:BLACK
 }
 table { width: 100%; border-collapse: collapse; }
 th, td {
   border: 1px solid black;
   padding: 8px;
   text-align: left;
-  color: purple;
+  color: black
 }
 .links {
   background-color: yellow;
@@ -104,7 +104,7 @@ th, td {
   margin: 20px auto;
   padding: 10px;
   text-align: left;
-  color: purple;
+  color: black;
 }
 .centro { text-align: center; }
 .negrito { font-weight: bold; }
@@ -112,7 +112,7 @@ th, td {
   font-family: "Comic Sans MS", cursive;
   font-size: 15pt;
   margin: 20px;
-  color: purple;
+  color: black;
 }
 .banner {
   background-color: bisque;
@@ -129,7 +129,7 @@ th, td {
   position: sticky;
   top: 0;
   z-index: 10;
-  color: purple;
+  color:black;
 }
 .banner img { width: 60px; height: auto; }
 .banner p { flex: 1; margin: 0; }
